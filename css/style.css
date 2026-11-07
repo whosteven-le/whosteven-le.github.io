@@ -1,8 +1,8 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
+    --primaryText: #c5c5c5;
+    --secondaryText: #fff;
+    --primary: rgba(13, 20, 117, 0.6);
+    --secondary: rgba(1, 69, 255, 0.6); 
     --buttonHover: rgba(156, 39, 176, .40);
     --smallButtonHover: rgba(0, 0, 0, .25);
 }
@@ -93,6 +93,29 @@ img {
 
 .section-header {
     padding-top: .5em;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.socials a {
+    color: #aaaaaa;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out all;
+}
+
+.socials a:hover {
+    text-decoration: none;
+    color: #333333;
+    margin: 0 .5em;
 }
 
 .button,
